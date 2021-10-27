@@ -1,0 +1,149 @@
+
+@font-face
+{
+
+	font-family: "worksan_bold";
+	src:url(font/Work_Sans/WorkSans-SemiBold.ttf);
+}
+@font-face
+	{
+	font-family= "hightlight";
+    src:url('font/Cardo/Cardo-Italic.ttf');
+	}
+
+div#first
+{
+font-family: worksan_bold;
+
+
+}
+h3
+{
+	margin:50px 50px;
+	float: left;
+	margin-right:150px;
+}
+div#img ul li
+{
+  list-style: none;
+  float: left;
+  padding:5px;
+  margin:30px 50px;
+ }
+div#logo img
+{   
+	width: 100px;
+	height: 100px;
+	float: left;
+    margin: 5px 50px 50px 50px;
+}
+a:hover
+{
+background-color: green;
+padding:10px;
+}
+/*for second*/
+div#second
+{
+	margin-left: 50px;
+}
+h1
+{
+	font-size: 30px;
+	font-family:"hightlight";
+
+}
+div.clear{
+	clear: both;
+}
+
+div#posit h2
+{
+font-size:15px;
+margin: 50px 50px 0px 0px;
+	font-style: italic;
+
+}
+div#second img
+{
+	position: relative;
+	left: 700px;
+    width: 500px;
+	height: 300px;
+    float: left;
+}
+div#posit .read:hover
+{ 
+  float: left;
+  background-color: green;
+  width:80px;
+  padding:15px;
+}
+/*for third*/
+
+div#third img
+{
+    width: 1200px;
+	height: 300px;
+	margin-top: 20px;
+	margin-left:50px;
+}
+.quote
+{   
+	position: absolute;
+	top:700px;
+	left:150px;
+	
+}
+div#third .read
+{
+	position: absolute;
+	top:750px;
+	right:600px;
+	width: 100px;
+}
+div#third .read:hover
+{ 
+	font-family: "worksan_bold";
+  background-color:red;
+  width:100px;
+  padding:10px;
+  
+}
+
+/*for fourth*/
+div#fourth h1
+{
+	font-size: 30px;
+	font-family:"hightlight";
+	margin-left: 50px;
+}
+p
+{
+	margin-left: 50px;
+}
+div#imagefood img
+{   	
+	margin:20px 0px 30px 30px;
+    padding: 15px;
+    width:340px;
+    float: left;
+
+}
+
+/*for fifth*/
+
+
+div#clear
+{
+clear: both; 
+}
+div.imagefood img
+{ 
+   position: relative;
+   left:50px;
+    padding:1px;
+	float: left;
+	width:200px;
+	height: 150px;
+}
